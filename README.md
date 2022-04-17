@@ -1,2 +1,2 @@
 # Modelovanje-softvera---AstahProfesional
-Modelovanje svih dostupnih dijagrama
+Specifikacija i modelovanje softvera
