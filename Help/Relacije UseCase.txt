@@ -1,0 +1,27 @@
+	Uključivanje(----include---->)
+• Vezu uključivanja koristimo kada se neka funkcionalnost sreće više
+puta u okviru koraka različitih slučajeva korišćenja, pa se ona odvoji u
+poseban slučaj korišćenja i uključi u sve potrebne, kao i kaa jedan
+slučaj korišćenja direktno zavisi od rezultat izvršavanja nekog drugog
+slučaja korišćenja.
+• Kada se uključuje slučaj u osnovni, osnovni uvek mora izvršiti i svoje
+korake i korake uključenog slučaja.
+
+	Prosirivanje(<---extend---)
+- “Proširivanjem” jednog slučaja upotrebe opisuje se neka
+složenija funkcija sistema
+- Proširivanje se vrši sa jednim ili više drugih postojećih
+slučajeva upotrebe
+  - Ako slučaj A proširuje slučaj B:
+     - i slučaj A i slučaj B mogu da postoje sami
+     - slučaj B može (a ne mora) da bude proširen slučajem A
+
+
+
+	Nasleđivanje - učesnici (Generalizacija)
+• Nasleđivanje među učesnicima koristimo kada želimo da apstrahujemo
+učesnike koji imaju zajedničke slučajeve korišćenja.
+• Potrebno je umereno koristiti nasleđivanje. Voditi računa da ako
+učesnici imaju zajedničke slučajeve korišćenja koje izvršavaju, to ne
+mora nužno da znači da su to slične uloge u sistemu, pa u takvim
+situacijama nasleđivanje među učesnicima bi bilo pogrešno.
